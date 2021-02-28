@@ -1,0 +1,272 @@
+Number of parts :2	Date: 2020-05-21 08:24:20 上午
+Name: shopName
+ContentType: null
+Size: 18
+content-disposition: form-data; name="shopName"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 231739
+content-disposition: form-data; name="bookImage_0"; filename="89198-102.jpg"
+content-type: image/jpeg
+
+
+Number of parts :2	Date: 2020-05-21 08:43:08 上午
+Name: shopName
+ContentType: null
+Size: 18
+content-disposition: form-data; name="shopName"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 231739
+content-disposition: form-data; name="bookImage_0"; filename="89198-102.jpg"
+content-type: image/jpeg
+
+
+Number of parts :2	Date: 2020-05-21 08:52:52 上午
+Name: shopName
+ContentType: null
+Size: 18
+content-disposition: form-data; name="shopName"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 231739
+content-disposition: form-data; name="bookImage_0"; filename="89198-102.jpg"
+content-type: image/jpeg
+
+
+Number of parts :2	Date: 2020-05-21 08:54:31 上午
+Name: shopName
+ContentType: null
+Size: 18
+content-disposition: form-data; name="shopName"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 231739
+content-disposition: form-data; name="bookImage_0"; filename="89198-102.jpg"
+content-type: image/jpeg
+
+
+Number of parts :2	Date: 2020-05-21 08:57:20 上午
+Name: shopName
+ContentType: null
+Size: 18
+content-disposition: form-data; name="shopName"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 231739
+content-disposition: form-data; name="bookImage_0"; filename="89198-102.jpg"
+content-type: image/jpeg
+
+
+Number of parts :2	Date: 2020-05-21 08:59:06 上午
+Name: shopName
+ContentType: null
+Size: 18
+content-disposition: form-data; name="shopName"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 231739
+content-disposition: form-data; name="bookImage_0"; filename="89198-102.jpg"
+content-type: image/jpeg
+
+
+Number of parts :2	Date: 2020-05-21 09:09:11 上午
+Name: shopName
+ContentType: null
+Size: 18
+content-disposition: form-data; name="shopName"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 231739
+content-disposition: form-data; name="bookImage_0"; filename="89198-102.jpg"
+content-type: image/jpeg
+
+
+Number of parts :2	Date: 2020-05-21 09:16:27 上午
+Name: shopName
+ContentType: null
+Size: 18
+content-disposition: form-data; name="shopName"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 231739
+content-disposition: form-data; name="bookImage_0"; filename="89198-102.jpg"
+content-type: image/jpeg
+
+
+Number of parts :10	Date: 2020-05-21 09:19:16 上午
+Name: shopId
+ContentType: null
+Size: 14
+content-disposition: form-data; name="shopId"
+Name: isbn
+ContentType: null
+Size: 4
+content-disposition: form-data; name="isbn"
+Name: bookIsbn
+ContentType: null
+Size: 13
+content-disposition: form-data; name="bookIsbn"
+Name: bookName
+ContentType: null
+Size: 20
+content-disposition: form-data; name="bookName"
+Name: authorName
+ContentType: null
+Size: 22
+content-disposition: form-data; name="authorName"
+Name: publisherName
+ContentType: null
+Size: 21
+content-disposition: form-data; name="publisherName"
+Name: publisherDate
+ContentType: null
+Size: 10
+content-disposition: form-data; name="publisherDate"
+Name: bookPrice
+ContentType: null
+Size: 5
+content-disposition: form-data; name="bookPrice"
+Name: bookDescribe
+ContentType: null
+Size: 572
+content-disposition: form-data; name="bookDescribe"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 49127
+content-disposition: form-data; name="bookImage_0"; filename="LinuxCommand.jpg"
+content-type: image/jpeg
+
+
+Number of parts :10	Date: 2020-05-21 09:22:56 上午
+Name: shopId
+ContentType: null
+Size: 14
+content-disposition: form-data; name="shopId"
+Name: isbn
+ContentType: null
+Size: 4
+content-disposition: form-data; name="isbn"
+Name: bookIsbn
+ContentType: null
+Size: 13
+content-disposition: form-data; name="bookIsbn"
+Name: bookName
+ContentType: null
+Size: 32
+content-disposition: form-data; name="bookName"
+Name: authorName
+ContentType: null
+Size: 13
+content-disposition: form-data; name="authorName"
+Name: publisherName
+ContentType: null
+Size: 21
+content-disposition: form-data; name="publisherName"
+Name: publisherDate
+ContentType: null
+Size: 10
+content-disposition: form-data; name="publisherDate"
+Name: bookPrice
+ContentType: null
+Size: 5
+content-disposition: form-data; name="bookPrice"
+Name: bookDescribe
+ContentType: null
+Size: 1060
+content-disposition: form-data; name="bookDescribe"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 22019
+content-disposition: form-data; name="bookImage_0"; filename="C Primer Plus.jpg"
+content-type: image/jpeg
+
+
+Number of parts :10	Date: 2020-05-21 09:24:50 上午
+Name: shopId
+ContentType: null
+Size: 14
+content-disposition: form-data; name="shopId"
+Name: isbn
+ContentType: null
+Size: 4
+content-disposition: form-data; name="isbn"
+Name: bookIsbn
+ContentType: null
+Size: 13
+content-disposition: form-data; name="bookIsbn"
+Name: bookName
+ContentType: null
+Size: 38
+content-disposition: form-data; name="bookName"
+Name: authorName
+ContentType: null
+Size: 17
+content-disposition: form-data; name="authorName"
+Name: publisherName
+ContentType: null
+Size: 21
+content-disposition: form-data; name="publisherName"
+Name: publisherDate
+ContentType: null
+Size: 10
+content-disposition: form-data; name="publisherDate"
+Name: bookPrice
+ContentType: null
+Size: 5
+content-disposition: form-data; name="bookPrice"
+Name: bookDescribe
+ContentType: null
+Size: 1277
+content-disposition: form-data; name="bookDescribe"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 45745
+content-disposition: form-data; name="bookImage_0"; filename="JavaScript Professinal.jpg"
+content-type: image/jpeg
+
+
+Number of parts :10	Date: 2020-05-21 09:50:41 上午
+Name: shopId
+ContentType: null
+Size: 14
+content-disposition: form-data; name="shopId"
+Name: isbn
+ContentType: null
+Size: 4
+content-disposition: form-data; name="isbn"
+Name: bookIsbn
+ContentType: null
+Size: 13
+content-disposition: form-data; name="bookIsbn"
+Name: bookName
+ContentType: null
+Size: 60
+content-disposition: form-data; name="bookName"
+Name: authorName
+ContentType: null
+Size: 17
+content-disposition: form-data; name="authorName"
+Name: publisherName
+ContentType: null
+Size: 21
+content-disposition: form-data; name="publisherName"
+Name: publisherDate
+ContentType: null
+Size: 10
+content-disposition: form-data; name="publisherDate"
+Name: bookPrice
+ContentType: null
+Size: 5
+content-disposition: form-data; name="bookPrice"
+Name: bookDescribe
+ContentType: null
+Size: 841
+content-disposition: form-data; name="bookDescribe"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 42747
+content-disposition: form-data; name="bookImage_0"; filename="ModernComputerNetWork.jpg"
+content-type: image/jpeg
+
+

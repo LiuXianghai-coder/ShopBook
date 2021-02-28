@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.addShop {
+    display: block;
+    align-self: center;
+}
+
+.addShopButton{
+    width: 140px;
+    height: 60px;
+    font-size: 1.3em;
+    border-radius: 3px;
+    border-width: 0;
+    margin: 0;
+    font-family: KaiTi, serif;
+    cursor: pointer;
+}
+.addShopButton:hover{
+    background-color: #d64624;
+}
+.addShopButton:active{
+    position:static;
+    outline: 0;
+}
+
+.register {
+    width: 5%;
+    height: 100%;
+    font-family: 楷体, serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.login {
+    width: 5%;
+    height: 100%;
+    font-family: 楷体, serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopBook {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+}
+
+.shopUnit {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shopImage {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.shopName{
+    display: flex;
+    display: -webkit-flex;
+    font-family: kaiti, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.shopReputation {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    margin-bottom: 10px;
+    font-size: 1.0em;
+    width: 100%;
+}
+
+.shopCreateDate {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    font-size: 1.0em;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 15%;
+}
+
+.sellerShop {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+}

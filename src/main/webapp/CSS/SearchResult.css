@@ -1,0 +1,21 @@
+.resultArea {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.resultShow {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    background-color: lavender;
+}
+
+.resultCombination {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+}

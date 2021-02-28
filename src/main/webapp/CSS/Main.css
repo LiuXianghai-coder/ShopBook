@@ -1,0 +1,280 @@
+body {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+#top {
+    background: #938f8f;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction:row-reverse;
+    width: 100%;
+    height: 10%;
+}
+
+#search{
+    background: white;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+}
+
+.searchInput {
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    font-size: 1.3em;
+    border-color: black;
+    border-width: 3px;
+}
+
+.searchButton {
+    width: 120px;
+    height: 100%;
+    font-size: 1.3em;
+    border-radius: 3px;
+    border-width: 0;
+    margin: 0;
+    font-family: KaiTi, serif;
+    cursor: pointer; /*设置鼠标箭头手势*/
+}
+.searchButton:hover{
+    background-color: #d64624;
+}
+.searchButton:active{
+    position:static;
+    outline: 0;
+}
+
+.menu {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 40%;
+    margin-right: 3px;
+}
+
+.content {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bookKind {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-items: left;
+    font-size: 1.5em;
+    width: 70%;
+    height: 100%;
+    background-color: gainsboro;
+    margin-right: 10px;
+}
+
+.bookKindRight {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row-reverse;
+    width: 30%;
+    height: 100%;
+}
+
+.bookImage {
+    width: 30%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.news {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    font-weight: bold;
+    align-items: self-start;
+    justify-items: left;
+    width: 30%;
+    height: 100%;
+    background-color: gainsboro;
+}
+
+.detail {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bookDetail {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.detailImage {
+    height: 50%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.bookName {
+    display: flex;
+    display: -webkit-flex;
+    font-family: kaiti, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bookPrice {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 100%;
+}
+
+.login {
+    width: 5%;
+    height: 100%;
+    font-family: 楷体, serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.topFont {
+    font-family: normal, serif;
+    font-size: 1.5em;
+}
+
+.register {
+    width: 5%;
+    height: 100%;
+    font-family: 楷体, serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.shopCart{
+    width: 5%;
+    height: 100%;
+    font-family: 楷体, serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.manageShop{
+    width: 7%;
+    height: 100%;
+    font-family: 楷体, serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.logOut{
+    width: 5%;
+    height: 100%;
+    font-family: 楷体, serif;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopButton {
+    width: 120px;
+    height: 50px;
+    font-size: 1.1em;
+    border-radius: 3px;
+    border-width: 0;
+    margin-right: 20px;
+    font-family: KaiTi, serif;
+    cursor: pointer; /*设置鼠标箭头手势*/
+}
+.shopButton:hover{
+    background-color: #d64624;
+}
+.shopButton:active{
+    position:static;
+    outline: 0;
+}
+
+.book{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.bookUnit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.shopName {
+    display: flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    width: 100%;
+}
+
+.shopReputation{
+    display: flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.swiper-container {
+    width: 400px;
+    height: 500px;
+}

@@ -1,0 +1,24 @@
+Number of parts :5	Date: 2020-05-21 09:44:44 上午
+Name: shopId
+ContentType: null
+Size: 10
+content-disposition: form-data; name="shopId"
+Name: isbn
+ContentType: null
+Size: 13
+content-disposition: form-data; name="isbn"
+Name: bookPrice
+ContentType: null
+Size: 6
+content-disposition: form-data; name="bookPrice"
+Name: bookDescribe
+ContentType: null
+Size: 24
+content-disposition: form-data; name="bookDescribe"
+Name: bookImage_0
+ContentType: image/jpeg
+Size: 43496
+content-disposition: form-data; name="bookImage_0"; filename="unix_advance.jpg"
+content-type: image/jpeg
+
+

@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.formArea{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inputLayout{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    font-family: kaiti, serif;
+    font-size: 1.8em;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+textArea {
+    width: 480px;
+}
+
+.inputStyle{
+    width: 300px;
+    height: 40px;
+    border-color: black;
+    font-size: 1.3em;
+    border-width: 2px;
+}
+
+.uploadImageArea{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.textArea{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+Button {
+    width: 100px;
+    height: 40px;
+    font-size: 1.3em;
+    border-radius: 3px;
+    border-width: 0;
+    margin-right: 20px;
+    font-family: KaiTi, serif;
+    cursor: pointer; /*设置鼠标箭头手势*/
+}
+Button:hover{
+    background-color: #d64624;
+}
+Button:active{
+    position:static;
+    outline: 0;
+}
+
+.buttonArea{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imageUpload {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-self: center;
+    font-family: kaiti, serif;
+    font-size: 1.2em;
+}
+
+#uploadFile{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.fileUploadInput{
+    width: 200px;
+    height: 30px;
+}

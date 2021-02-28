@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+#top {
+    background: #938f8f;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction:row-reverse;
+    width: 100%;
+    height: 10%;
+}
+
+#search{
+    background: white;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+}
+
+.searchInput {
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    font-size: 1.3em;
+    border-color: black;
+    border-width: 3px;
+}
+
+.searchButton {
+    width: 120px;
+    height: 100%;
+    font-size: 1.3em;
+    border-radius: 3px;
+    border-width: 0;
+    margin: 0;
+    font-family: KaiTi, serif;
+    cursor: pointer; /*设置鼠标箭头手势*/
+}
+.searchButton:hover{
+    background-color: #d64624;
+}
+.searchButton:active{
+    position:static;
+    outline: 0;
+}
+
+.addBook {
+    display: block;
+    align-self: center;
+}
+
+.addBookButton{
+    width: 140px;
+    height: 60px;
+    font-size: 1.3em;
+    border-radius: 3px;
+    border-width: 0;
+    margin: 0;
+    font-family: KaiTi, serif;
+    cursor: pointer;
+}
+.addBookButton:hover{
+    background-color: #d64624;
+}
+
+.addBookButton:active{
+    position:static;
+    outline: 0;
+}
+
+.book {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+    height: auto;
+}
+
+.bookUnit {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.bookImage {
+    height: 70%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.imageShow {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+.bookName{
+    display: flex;
+    display: -webkit-flex;
+    font-family: kaiti, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bookPrice {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    margin-bottom: 10px;
+    font-size: 1.0em;
+    width: 100%;
+}
+
+.bookDescribe{
+    width: 100%;
+    height: 30%;
+}
+
+.bookPublisherDate {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    font-size: 1.0em;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 15%;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.modifyButton {
+    width: 60px;
+    height: 35px;
+    font-size: 1.3em;
+    border-radius: 3px;
+    border-width: 0;
+    margin: 0;
+    font-family: KaiTi, serif;
+    cursor: pointer;
+}
+
+.modifyButton:hover{
+    background-color: #d64624;
+}
+.modifyButton:active{
+    position:static;
+    outline: 0;
+}

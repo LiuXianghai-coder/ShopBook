@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shopButton {
+    width: 120px;
+    height: 50px;
+    font-size: 1.1em;
+    border-radius: 3px;
+    border-width: 0;
+    margin-right: 20px;
+    font-family: KaiTi, serif;
+    cursor: pointer; /*设置鼠标箭头手势*/
+}
+.shopButton:hover{
+    background-color: #d64624;
+}
+.shopButton:active{
+    position:static;
+    outline: 0;
+}
+
+.book{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.bookUnit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+.shopName {
+    display: flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    width: 100%;
+}
+
+.shopReputation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: kaiti, serif;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+.bookName {
+    display: flex;
+    display: -webkit-flex;
+    font-family: kaiti, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bookPrice {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    font-family: kaiti, serif;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 100%;
+}
+
+.describe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    font-family: kaiti, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.bookAuthor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: kaiti, serif;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
