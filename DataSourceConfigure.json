@@ -1,0 +1,6 @@
+{
+  "url": "jdbc:postgresql://39.101.165.7:5432/book_shop",
+  "user": "postgres",
+  "password": "GuiHuaLinked:Liu",
+  "driverUrl": "org.postgresql.Driver"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bean>
+    <bean table="shop_user" type="com.database.entity.User">
+        <result property="userId" column="user_id" />
+        <result property="userName" column="user_name" />
+        <result property="userPassword" column="user_password" />
+        <result property="userBalance" column="user_money" />
+        <result property="registerDate" column="user_register_date" />
+    </bean>
+
+    <bean table="shop_seller" type="com.database.entity.Seller">
+        <result property="sellerId" column="seller_id" />
+        <result property="sellerPassword" column="seller_password" />
+        <result property="sellerName" column="seller_name" />
+        <result property="sellerMoney" column="seller_money" />
+        <result property="sellerRegisterDate" column="seller_register_date" />
+    </bean>
+
+    <bean type="com.database.entity.Shop">
+        <result property="shopId" column="shop_id" />
+        <result property="shopName" column="shop_name" />
+        <result property="shopReputation" column="shop_reputation" />
+        <result property="shopRegister" column="shop_create_date" />
+    </bean>
+
+    <bean type="com.database.entity.ShopBook">
+        <result property="bookInfo" column="isbn" />
+        <result property="price" column="price"/>
+        <result property="describe" column="describe" />
+    </bean>
+
+    <bean type="com.database.entity.Book" >
+        <result property="isbn" column="isbn" />
+        <result property="bookName" column="book_name" />
+    </bean>
+
+    <bean type="com.database.entity.Publisher">
+        <result property="publisherId" column="publisher_id" />
+        <result property="publisherName" column="publisher_name" />
+        <result property="publisherDate" column="publisher_date" />
+    </bean>
+
+    <bean type="com.database.entity.BookShow" >
+        <result property="price" column="price" />
+        <result property="imageAddress" column="image_address" />
+    </bean>
+
+    <bean type="com.database.entity.MainShopInfo">
+        <result property="isbn" column="isbn" />
+        <result property="shopId" column="shop_id" />
+        <result property="price" column="price" />
+        <result property="bookName" column="book_name" />
+        <result property="shopName" column="shop_name" />
+        <result property="imageAddress" column="image_address" />
+        <result property="shopReputation" column="shop_reputation" />
+    </bean>
+
+    <bean type="com.database.entity.CartShop">
+        <result property="shopName" column="shop_name" />
+        <result property="imageAddress" column="image_address" />
+        <result property="bookName" column="book_name" />
+        <result property="price" column="price" />
+    </bean>
+
+    <bean type="com.database.entity.ShopIdAndISBN" >
+        <result property="shopId" column="shop_id" />
+        <result property="isbn" column="isbn" />
+    </bean>
+</bean>

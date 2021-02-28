@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean table="shop_user" entity="com.database.entity.User">
+        <result property="userId" column="user_id" />
+        <result property="userName" column="user_name" />
+        <result property="userPassword" column="user_password" />
+        <result property="userBalance" column="user_money" />
+        <result property="registerDate" column="user_register_date" />
+    </bean>
+    <bean table="author" entity="com.database.entity.Author">
+        <result property="authorId" column="author_id" />
+        <result property="authorName" column="author_name" />
+    </bean>
+</beans>

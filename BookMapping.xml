@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean type="com.database.entity.Author">
+        <result property="authorId" column="author_id"/>
+        <result property="authorName" column="author_name" />
+    </bean>
+
+    <bean type="com.database.entity.Publisher">
+        <result property="publisherId" column="publisher_id" />
+        <result property="publisherName" column="publisher_name" />
+        <result property="publisherDate" column="publisher_Date" />
+    </bean>
+
+    <bean type="com.database.entity.Book">
+        <result property="isbn" column="isbn" />
+        <result property="bookName" column="book_name" />
+    </bean>
+
+    <bean type="com.database.entity.User">
+        <result property="userId" column="user_id" />
+        <result property="userName" column="user_name" />
+        <result property="userPassword" column="user_password" />
+        <result property="userBalance" column="user_money" />
+        <result property="registerDate" column="user_register_date" />
+    </bean>
+
+    <bean type="com.database.entity.Seller">
+        <result property="sellerId" column="seller_id" />
+        <result property="sellerPassword" column="seller_password" />
+        <result property="sellerName" column="seller_name" />
+        <result property="sellerMoney" column="seller_money" />
+        <result property="sellerRegisterDate" column="seller_register_date" />
+    </bean>
+</beans>
